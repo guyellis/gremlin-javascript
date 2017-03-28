@@ -1,7 +1,7 @@
 {
-  "name": "gremlin",
-  "version": "2.3.2",
-  "description": "JavaScript client for TinkerPop3 Gremlin Server",
+  "name": "gremlin-alt",
+  "version": "1.0.0",
+  "description": "JavaScript client for TinkerPop3 Gremlin Server (forked from jbmusso)",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src -d lib",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbmusso/gremlin-javascript"
+    "url": "https://github.com/guyellis/gremlin-javascript"
   },
   "keywords": [
     "tinkerpop",
@@ -26,12 +26,15 @@
     "graph",
     "database"
   ],
-  "author": "Jean-Baptiste Musso <jbmusso+github@gmail.com>",
+  "contributors": [
+    "Jean-Baptiste Musso <jbmusso+github@gmail.com>",
+    "Guy Ellis <wildfiction+github@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jbmusso/gremlin-javascript/issues"
+    "url": "https://github.com/guyellis/gremlin-javascript/issues"
   },
-  "homepage": "https://github.com/jbmusso/gremlin-javascript",
+  "homepage": "https://github.com/guyellis/gremlin-javascript",
   "dependencies": {
     "gremlin-template-string": "^2.0.0",
     "highland": "^2.5.1",
