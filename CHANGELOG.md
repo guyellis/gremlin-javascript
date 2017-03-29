@@ -1,3 +1,6 @@
+## 1.0.2
+- Merge in orphaned response changes from princjef/orphaned-response
+
 ## 1.0.1
 - Merge in ws fixes from princjef/ws-update
 
