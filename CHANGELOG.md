@@ -1,3 +1,13 @@
+## 1.0.1
+- Merge in ws fixes from princjef/ws-update
+
+## 1.0.0
+- Change repo name and version
+
+# Fork 1.0.0
+- Change repo name to `gremlin-alt`
+- Reset version to 1.0.0
+
 ## 2.3.2
 - Fix an issue with payloads containing utf8 special characters (@PommeVerte)
 
